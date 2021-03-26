@@ -1,0 +1,3 @@
+"D:\Clion\install\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ComputerScienceFoundation.dir/objects.a
+D:\Clion\MinGW64\mingw64\bin\ar.exe cr CMakeFiles\ComputerScienceFoundation.dir/objects.a @CMakeFiles\ComputerScienceFoundation.dir\objects1.rsp
+D:\Clion\MinGW64\mingw64\bin\g++.exe -g  -static -Wl,--whole-archive CMakeFiles\ComputerScienceFoundation.dir/objects.a -Wl,--no-whole-archive  -o ComputerScienceFoundation.exe -Wl,--out-implib,libComputerScienceFoundation.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ComputerScienceFoundation.dir\linklibs.rsp

@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/LinearList.cpp">
+			<Option target="ComputerScienceFoundation"/>
+		</Unit>
+		<Unit filename="D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/LinearList.h">
+			<Option target="ComputerScienceFoundation"/>
+		</Unit>
+		<Unit filename="D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/PublicException.cpp">
+			<Option target="ComputerScienceFoundation"/>
+		</Unit>
+		<Unit filename="D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/PublicException.h">
+			<Option target="ComputerScienceFoundation"/>
+		</Unit>
 		<Unit filename="D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/main.cpp">
 			<Option target="ComputerScienceFoundation"/>
 		</Unit>

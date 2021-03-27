@@ -93,12 +93,12 @@ clean: CMakeFiles/ComputerScienceFoundation.dir/clean
 CMakeFiles/ComputerScienceFoundation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ComputerScienceFoundation.dir\build.make CMakeFiles/ComputerScienceFoundation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ComputerScienceFoundation.dir\build.make CMakeFiles/ComputerScienceFoundation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target ComputerScienceFoundation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target ComputerScienceFoundation"
 .PHONY : CMakeFiles/ComputerScienceFoundation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ComputerScienceFoundation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ComputerScienceFoundation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/ComputerScienceFoundation.dir/rule

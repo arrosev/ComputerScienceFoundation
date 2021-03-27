@@ -89,19 +89,49 @@ CMakeFiles/ComputerScienceFoundation.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerScienceFoundation.dir/main.cpp.s"
 	D:\Clion\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\main.cpp -o CMakeFiles\ComputerScienceFoundation.dir\main.cpp.s
 
+CMakeFiles/ComputerScienceFoundation.dir/LinearList.cpp.obj: CMakeFiles/ComputerScienceFoundation.dir/flags.make
+CMakeFiles/ComputerScienceFoundation.dir/LinearList.cpp.obj: ../LinearList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ComputerScienceFoundation.dir/LinearList.cpp.obj"
+	D:\Clion\MinGW64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerScienceFoundation.dir\LinearList.cpp.obj -c D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\LinearList.cpp
+
+CMakeFiles/ComputerScienceFoundation.dir/LinearList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerScienceFoundation.dir/LinearList.cpp.i"
+	D:\Clion\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\LinearList.cpp > CMakeFiles\ComputerScienceFoundation.dir\LinearList.cpp.i
+
+CMakeFiles/ComputerScienceFoundation.dir/LinearList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerScienceFoundation.dir/LinearList.cpp.s"
+	D:\Clion\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\LinearList.cpp -o CMakeFiles\ComputerScienceFoundation.dir\LinearList.cpp.s
+
+CMakeFiles/ComputerScienceFoundation.dir/PublicException.cpp.obj: CMakeFiles/ComputerScienceFoundation.dir/flags.make
+CMakeFiles/ComputerScienceFoundation.dir/PublicException.cpp.obj: ../PublicException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ComputerScienceFoundation.dir/PublicException.cpp.obj"
+	D:\Clion\MinGW64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ComputerScienceFoundation.dir\PublicException.cpp.obj -c D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\PublicException.cpp
+
+CMakeFiles/ComputerScienceFoundation.dir/PublicException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerScienceFoundation.dir/PublicException.cpp.i"
+	D:\Clion\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\PublicException.cpp > CMakeFiles\ComputerScienceFoundation.dir\PublicException.cpp.i
+
+CMakeFiles/ComputerScienceFoundation.dir/PublicException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerScienceFoundation.dir/PublicException.cpp.s"
+	D:\Clion\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\PublicException.cpp -o CMakeFiles\ComputerScienceFoundation.dir\PublicException.cpp.s
+
 # Object files for target ComputerScienceFoundation
 ComputerScienceFoundation_OBJECTS = \
-"CMakeFiles/ComputerScienceFoundation.dir/main.cpp.obj"
+"CMakeFiles/ComputerScienceFoundation.dir/main.cpp.obj" \
+"CMakeFiles/ComputerScienceFoundation.dir/LinearList.cpp.obj" \
+"CMakeFiles/ComputerScienceFoundation.dir/PublicException.cpp.obj"
 
 # External object files for target ComputerScienceFoundation
 ComputerScienceFoundation_EXTERNAL_OBJECTS =
 
 ComputerScienceFoundation.exe: CMakeFiles/ComputerScienceFoundation.dir/main.cpp.obj
+ComputerScienceFoundation.exe: CMakeFiles/ComputerScienceFoundation.dir/LinearList.cpp.obj
+ComputerScienceFoundation.exe: CMakeFiles/ComputerScienceFoundation.dir/PublicException.cpp.obj
 ComputerScienceFoundation.exe: CMakeFiles/ComputerScienceFoundation.dir/build.make
 ComputerScienceFoundation.exe: CMakeFiles/ComputerScienceFoundation.dir/linklibs.rsp
 ComputerScienceFoundation.exe: CMakeFiles/ComputerScienceFoundation.dir/objects1.rsp
 ComputerScienceFoundation.exe: CMakeFiles/ComputerScienceFoundation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ComputerScienceFoundation.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Clion\gitProject\ComputerScienceFoundation\ComputerScienceFoundation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ComputerScienceFoundation.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ComputerScienceFoundation.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

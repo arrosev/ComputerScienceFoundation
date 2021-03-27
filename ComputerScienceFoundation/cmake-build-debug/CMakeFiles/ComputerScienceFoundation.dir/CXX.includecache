@@ -6,7 +6,33 @@
 
 #IncludeRegexTransform: 
 
+D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/LinearList.cpp
+LinearList.h
+D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/LinearList.h
+
+D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/LinearList.h
+ostream
+-
+sstream
+-
+iterator
+-
+algorithm
+-
+PublicException.h
+D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/PublicException.h
+
+D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/PublicException.cpp
+PublicException.h
+D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/PublicException.h
+
+D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/PublicException.h
+iostream
+-
+
 D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/main.cpp
 iostream
 -
+LinearList.h
+D:/Clion/gitProject/ComputerScienceFoundation/ComputerScienceFoundation/LinearList.h
 

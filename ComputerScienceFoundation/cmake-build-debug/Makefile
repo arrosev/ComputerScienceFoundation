@@ -142,6 +142,60 @@ ComputerScienceFoundation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ComputerScienceFoundation.dir\build.make CMakeFiles/ComputerScienceFoundation.dir/build
 .PHONY : ComputerScienceFoundation/fast
 
+LinearList.obj: LinearList.cpp.obj
+
+.PHONY : LinearList.obj
+
+# target to build an object file
+LinearList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ComputerScienceFoundation.dir\build.make CMakeFiles/ComputerScienceFoundation.dir/LinearList.cpp.obj
+.PHONY : LinearList.cpp.obj
+
+LinearList.i: LinearList.cpp.i
+
+.PHONY : LinearList.i
+
+# target to preprocess a source file
+LinearList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ComputerScienceFoundation.dir\build.make CMakeFiles/ComputerScienceFoundation.dir/LinearList.cpp.i
+.PHONY : LinearList.cpp.i
+
+LinearList.s: LinearList.cpp.s
+
+.PHONY : LinearList.s
+
+# target to generate assembly for a file
+LinearList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ComputerScienceFoundation.dir\build.make CMakeFiles/ComputerScienceFoundation.dir/LinearList.cpp.s
+.PHONY : LinearList.cpp.s
+
+PublicException.obj: PublicException.cpp.obj
+
+.PHONY : PublicException.obj
+
+# target to build an object file
+PublicException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ComputerScienceFoundation.dir\build.make CMakeFiles/ComputerScienceFoundation.dir/PublicException.cpp.obj
+.PHONY : PublicException.cpp.obj
+
+PublicException.i: PublicException.cpp.i
+
+.PHONY : PublicException.i
+
+# target to preprocess a source file
+PublicException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ComputerScienceFoundation.dir\build.make CMakeFiles/ComputerScienceFoundation.dir/PublicException.cpp.i
+.PHONY : PublicException.cpp.i
+
+PublicException.s: PublicException.cpp.s
+
+.PHONY : PublicException.s
+
+# target to generate assembly for a file
+PublicException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ComputerScienceFoundation.dir\build.make CMakeFiles/ComputerScienceFoundation.dir/PublicException.cpp.s
+.PHONY : PublicException.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +232,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ComputerScienceFoundation
+	@echo ... LinearList.obj
+	@echo ... LinearList.i
+	@echo ... LinearList.s
+	@echo ... PublicException.obj
+	@echo ... PublicException.i
+	@echo ... PublicException.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

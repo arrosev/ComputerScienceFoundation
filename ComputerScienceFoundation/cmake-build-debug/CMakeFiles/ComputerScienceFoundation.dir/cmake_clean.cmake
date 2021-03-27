@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ComputerScienceFoundation.dir/LinearList.cpp.obj"
+  "CMakeFiles/ComputerScienceFoundation.dir/PublicException.cpp.obj"
   "CMakeFiles/ComputerScienceFoundation.dir/main.cpp.obj"
   "ComputerScienceFoundation.exe"
   "ComputerScienceFoundation.exe.manifest"

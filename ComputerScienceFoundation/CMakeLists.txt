@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(CMAKE_EXE_LINKER_FLAGS "-static")
 
-add_executable(ComputerScienceFoundation main.cpp)
+add_executable(ComputerScienceFoundation main.cpp LinearList.cpp LinearList.h PublicException.cpp PublicException.h)

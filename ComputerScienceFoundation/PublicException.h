@@ -9,8 +9,9 @@
 using std::string;
 using std::cout;
 using std::endl;
+using std::exception;
 
-class illegalParameterValue {
+class illegalParameterValue : exception {
 
 private:
     string message;
